@@ -1,0 +1,104 @@
+Total Slides: 11
+
+--- SLIDE 1 ---
+Shape[Google Shape;56;p13]: Problem Statement : Identify, validate, rank, and explain the most suitable candidates from a pool of 100,000 profiles using AI-driven hiring intelligence.
+Shape[Google Shape;57;p13]: Team Leader Name : Tejas Mandwade
+
+--- SLIDE 2 ---
+Shape[Google Shape;63;p14]: Solution Overview
+Shape[TextBox 63]: From 100,000 Candidates to the Right Hire
+Shape[Rectangle 64]: TRADITIONAL ATS | Keyword Matching | Simple text filters | Easy to Game | Susceptible to tricks | Fake Profiles | Profiles slip through | Black Box Ranks | Unexplained logic
+Shape[Rectangle 65]: HIREMIND ENGINE | Smart Ranking | Looks beyond keywords | Fraud Checks | Detects suspicious profiles | Anomaly Detection | Filters spam & traps | Clear Rankings | Shows why candidates rank higher
+Shape[Rounded Rectangle 66]: 100,000 CANDIDATES ANALYZED
+Shape[Rounded Rectangle 67]: 100,000 | RAW APPLICANTS
+Shape[TextBox 68]: ▼
+Shape[Rounded Rectangle 69]: 81,101 | CLEAN CANDIDATES (Anomaly-free)
+Shape[TextBox 70]: ▼
+Shape[Rounded Rectangle 71]: 1,092 | TIER 1 & 2 SPECIALISTS MATCHED
+Shape[TextBox 72]: ▼
+Shape[Rounded Rectangle 73]: 🏆 TOP 100 | RECRUITER-READY SHORTLIST
+
+--- SLIDE 3 ---
+Shape[Google Shape;70;p15]: Beyond Keyword Matching
+Shape[Rounded Rectangle 70]: 5 RECRUITER SIGNALS EVALUATED
+Shape[TextBox 71]: Candidates are ranked using five hiring signals.
+Shape[TextBox 76]: Actual HireMind output showing transparent candidate evaluation and ranking explanation.
+Shape[Rounded Rectangle 77]: ✓ Transparent Rankings
+Shape[TextBox 79]: 25%   Template Fit | Matches candidates to the role, not just keywords.
+Shape[TextBox 81]: 25%   Semantic Skills | Measures how closely skills match the job.
+Shape[TextBox 83]: 20%   Candidate Intent | Measures candidate availability and interest.
+Shape[TextBox 85]: 15%   Growth | Tracks career growth over time.
+Shape[TextBox 87]: 15%   Stability | Rewards stable work history.
+
+--- SLIDE 4 ---
+Shape[Google Shape;77;p16]: Ranking Methodology
+Shape[Rounded Rectangle 77]: 100% LOCAL PROCESSING
+Shape[TextBox 78]: From Job Description to Top 100 Shortlist
+Shape[TextBox 79]: Ranks candidates locally in under 70 seconds.
+Shape[Rectangle 80]: Job Description | Read the job requirements.
+Shape[TextBox 81]: ➔
+Shape[Rectangle 82]: Candidate Matching | Find matching candidates.
+Shape[TextBox 83]: ➔
+Shape[Rectangle 84]: Multi-Signal Evaluation | Score each candidate.
+Shape[TextBox 85]: ➔
+Shape[Rectangle 86]: Final Ranking | Create the final ranking.
+Shape[TextBox 87]: ➔
+Shape[Rectangle 88]: Top 100 Shortlist | Top candidates ready for review.
+Shape[Rounded Rectangle 89]: ✓  CPU Only | ✓  No External APIs | ✓  <70s Runtime
+Shape[Rounded Rectangle 90]: LOCAL EMBEDDING MODEL | all-MiniLM-L6-v2
+
+--- SLIDE 5 ---
+Shape[Google Shape;84;p17]: Explainability & Data Validation
+Shape[Rounded Rectangle 84]: FACT-BASED EXPLANATIONS
+Shape[TextBox 85]: Trustworthy & Explainable Rankings
+Shape[Rectangle 86]: 18,899 INVALID PROFILES FILTERED | Suspicious and low-quality profiles removed before ranking. | ✔  Experience Validation | ✔  Career History Checks | ✔  Honeypot Detection | (Checks profile data for inconsistencies.)
+Shape[TextBox 89]: Factual AI Reasoning | Fact-based reasoning generated directly from candidate data. | Every recommendation is based on candidate data, score signals, and profile history. | ✓ Transparent Rankings   |   ✓ Explainable Decisions
+
+--- SLIDE 6 ---
+Shape[Google Shape;91;p18]: End-to-End Workflow
+Shape[Rounded Rectangle 91]: RECRUITER-READY PIPELINE
+Shape[TextBox 92]: From Job Input to Recruiter Shortlist
+Shape[Rectangle 93]: STEP 1 | Enter Job Requirements | Recruiter pastes or enters the job description directly into the secure local dashboard.
+Shape[TextBox 94]: ➔
+Shape[Rectangle 95]: STEP 2 | Analyze Candidates | System filters suspicious profiles, matches skills locally, and computes the 5-signal score.
+Shape[TextBox 96]: ➔
+Shape[Rectangle 97]: STEP 3 | Review & Shortlist | Recruiter inspects transparent ranking explanations and selects top candidates.
+Shape[TextBox 98]: Completed in under 70 seconds on standard hardware.
+
+--- SLIDE 7 ---
+Shape[Google Shape;98;p19]: System Architecture
+Shape[Rounded Rectangle 98]: FULLY OFFLINE SYSTEM
+Shape[TextBox 99]: Modular Design Optimized for Offline Performance
+Shape[Rectangle 100]: PRESENTATION LAYER | Streamlit UI | Secure local control panel and explainable candidate review dashboard.
+Shape[TextBox 101]: Ranked Results ↓
+Shape[Rectangle 102]: INTELLIGENCE LAYER | Ranking & Validation Engine | Consistent candidate ranking, multi-signal weights, and fraud filtering.
+Shape[TextBox 103]: Candidate Data ↑
+Shape[Rectangle 104]: DATA LAYER | Local Data Store | JSONL profiles, JD keywords, and offline embedding store.
+Shape[Rounded Rectangle 105]: STRICT HARDWARE COMPLIANCE | ✓  100% Offline Execution | No external APIs or data leakage. | ✓  CPU-Only Optimization | Runs on consumer laptop hardware. | ✓  Standard Python Environment | Zero complex cloud dependencies.
+
+--- SLIDE 8 ---
+Shape[Google Shape;104;p20]: Results & Performance
+Shape[Rounded Rectangle 104]: CHALLENGE COMPLIANT
+Shape[TextBox 105]: High-Speed Offline Matching Under 70 Seconds
+Shape[Rectangle 106]: 68.2s | End-to-End Processing Time | Meets challenge runtime requirements.
+Shape[Rectangle 107]: 100,000 | Candidates Evaluated
+Shape[Rectangle 108]: 18,899 | Invalid Profiles Removed
+Shape[Rectangle 109]: 1,092 | High-Quality Matches
+Shape[Rectangle 110]: 0% | Honeypots in Top 100
+Shape[TextBox 111]: Every shortlisted candidate includes transparent ranking explanations.
+
+--- SLIDE 9 ---
+Shape[Google Shape;111;p21]: Technologies Used
+Shape[Rounded Rectangle 111]: ZERO CLOUD DEPENDENCIES
+Shape[TextBox 112]: Lightweight Stack Selected for Compliance and Speed
+Shape[Rectangle 113]: INTERFACE | Streamlit | Chosen for rapid local deployment and clean interactive review.
+Shape[Rectangle 114]: PROCESSING | Python  •  Pandas  •  NumPy | Selected for high-speed, in-memory filtering of 100k candidate rows.
+Shape[Rectangle 115]: SKILL MATCHING | Sentence Transformersall-MiniLM-L6-v2 | Selected for high-accuracy, offline skill matching on CPU.
+Shape[Rectangle 116]: CUSTOM RANKING ENGINE | Multi-signal scoringValidation rulesExplainability generation | Built for consistent, multi-signal evaluation with zero API dependencies.
+Shape[TextBox 117]: Runs fully offline. No cloud services. No external APIs.
+
+--- SLIDE 10 ---
+Shape[Google Shape;118;p22]: Submission Assets
+Shape[Google Shape;119;p22]: Github video etc
+
+--- SLIDE 11 ---

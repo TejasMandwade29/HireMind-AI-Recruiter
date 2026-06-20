@@ -1,0 +1,40 @@
+--- PAGE 0 ---
+Problem Statement : Identify, validate, rank, and explain the most suitable candidates from a pool 
+of 100,000 profiles using AI-driven hiring intelligence.
+Team Leader Name : Tejas Mandwade
+--- PAGE 1 ---
+Solution Overview
+● What is your proposed solution?
+● What differentiates your approach from traditional candidate matching systems?
+--- PAGE 2 ---
+JD Understanding & Candidate Evaluation
+● What are the key requirements extracted from the JD?
+● Which candidate signals are most important for determining relevance? / How does your solution 
+evaluate candidate fit beyond keyword matching?
+--- PAGE 3 ---
+Ranking Methodology
+● How does your system retrieve, score, and rank candidates?
+● What models, algorithms, or heuristics are used?
+● How are multiple candidate signals combined into a final ranking?
+--- PAGE 4 ---
+Explainability & Data Validation
+● How are ranking decisions explained?
+● How do you prevent hallucinations or unsupported justifications?
+● How does your solution handle inconsistent, low-quality, or suspicious profiles?
+--- PAGE 5 ---
+End-to-End Workflow
+● What is the complete workflow from JD input to ranked candidate output?
+--- PAGE 6 ---
+System Architecture
+--- PAGE 7 ---
+Results & Performance
+● What results or insights demonstrate ranking quality?
+● How does your solution meet the challenge's runtime and compute constraints?
+--- PAGE 8 ---
+Technologies Used
+● What technologies, frameworks, and tools were used and why were they
+selected for this solution?
+--- PAGE 9 ---
+Submission Assets
+Github video etc
+--- PAGE 10 ---

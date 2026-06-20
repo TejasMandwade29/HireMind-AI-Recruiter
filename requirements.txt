@@ -1,0 +1,15 @@
+# Core Data Processing
+numpy>=1.22.0
+pandas>=1.4.0
+
+# Local AI Embedding & Similarity Match
+sentence-transformers>=2.2.0
+
+# Presentation Layer (Streamlit App)
+streamlit>=1.10.0
+
+# Slide Generation Utility (Optional / Developer Scripts)
+python-pptx>=0.6.21
+
+# Testing Framework
+pytest>=7.0.0

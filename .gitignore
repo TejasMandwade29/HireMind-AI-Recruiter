@@ -1,0 +1,44 @@
+# ==============================================================================
+# HIREMIND — GITIGNORE EXCLUSIONS
+# ==============================================================================
+
+# Big Dataset Files
+candidates.jsonl
+
+# PowerPoint Compilation Templates & Screenshots
+ppt_requierment/
+score_visualizer.png
+recruiter_verdict.png
+profile_screenshot.png
+
+# Generated Output CSVs & JSONs
+submission.csv
+pipeline_stats.json
+dashboard_shortlist.json
+
+# Local Python Caches & Bytecode
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE Configuration Directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS System Junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

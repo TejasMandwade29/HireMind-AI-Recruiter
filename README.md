@@ -224,6 +224,10 @@ Side-by-side comparison of top candidates, breaking down their final score acros
 Fact-based, deterministic explanation of the candidate's ranking and anomalies.
 ![AI Recruiter Verdict](github_img/AI%20Recruiter%20Verdict.png)
 
+### 6. Score Breakdown Visualizer
+Detailed visualization of the 5-signal weights for the top candidate match.
+![Score Breakdown](github_img/score_breakdown.png)
+
 ---
 
 ## 12. Future Scope

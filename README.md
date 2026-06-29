@@ -204,13 +204,17 @@ pytest tests/
 
 ## 11. Screenshots
 
-### Candidate Score Breakdown Visualizer
-Visual crop showing candidate signal distributions:
-![Score Visualizer](/docs/assets/score_visualizer.png)
+### 1. Main Dashboard & Funnel
+Overview of the entire 100k candidate pool, showing the distillation funnel and the top candidate match score.
+![Main Dashboard](github_img/main_dashboard%20.png)
 
-### Recruiter Verdict & Fact-Based Explanation
-Visual crop showing factual reasoning card output:
-![Recruiter Verdict](/docs/assets/recruiter_verdict.png)
+### 2. Candidate Explorer
+Detailed view of a single candidate, showing behavioral signals, technical skills depth, and AI-generated recruiter verdicts.
+![Candidate Explorer](github_img/candidate_explorer.png)
+
+### 3. Compare Hub
+Side-by-side comparison of top candidates, breaking down their final score across different ranking weights.
+![Compare Hub](github_img/compare_hub.png)
 
 ---
 

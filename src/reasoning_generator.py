@@ -115,11 +115,20 @@ class ReasoningGenerator:
         
         # Define sentences based on pattern
         
-        # Line 1: Strongest technical signal
-        if key_skills:
-            line1 = f"Strong {skills_str} experience built across {yoe:.1f} years in ML-focused engineering roles."
+        # Select dynamic template index deterministically using candidate_id
+        hash_idx = self._get_hash_index(candidate_id, 2)
+        
+        # Line 1: Strongest technical signal with name and template diversity
+        if hash_idx == 0:
+            if key_skills:
+                line1 = f"Strong {skills_str} experience built across {yoe:.1f} years in ML-focused engineering roles for {name}, with exposure to {achievement}."
+            else:
+                line1 = f"Technical background for {name} built across {yoe:.1f} years in software engineering roles, primarily involving {achievement}."
         else:
-            line1 = f"Technical background built across {yoe:.1f} years in software engineering roles, primarily involving {achievement}."
+            if key_skills:
+                line1 = f"{name} demonstrates strong {skills_str} capability over {yoe:.1f} years in ML-focused roles, specializing in {achievement}."
+            else:
+                line1 = f"Across {yoe:.1f} years in software engineering, {name} has focused primarily on {achievement}."
             
         # Line 2: Career trajectory or progression
         prog_score = score_breakdown.get("progression_score", 0)

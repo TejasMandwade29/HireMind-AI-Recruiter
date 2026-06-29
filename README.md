@@ -212,9 +212,17 @@ Overview of the entire 100k candidate pool, showing the distillation funnel and 
 Detailed view of a single candidate, showing behavioral signals, technical skills depth, and AI-generated recruiter verdicts.
 ![Candidate Explorer](github_img/candidate_explorer.png)
 
-### 3. Compare Hub
+### 3. Candidate Profile
+Individual view of a candidate's background and matching score breakdown.
+![Candidate Profile](github_img/candidate_profile.png)
+
+### 4. Compare Hub
 Side-by-side comparison of top candidates, breaking down their final score across different ranking weights.
 ![Compare Hub](github_img/compare_hub.png)
+
+### 5. AI Recruiter Verdict
+Fact-based, deterministic explanation of the candidate's ranking and anomalies.
+![AI Recruiter Verdict](github_img/AI%20Recruiter%20Verdict.png)
 
 ---
 

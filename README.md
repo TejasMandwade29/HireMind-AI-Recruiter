@@ -226,7 +226,7 @@ Fact-based, deterministic explanation of the candidate's ranking and anomalies.
 
 ### 6. Score Breakdown Visualizer
 Detailed visualization of the 5-signal weights for the top candidate match.
-![Score Breakdown](github_img/score_breakdown.png)
+![score_breakdown](github_img/score_breakdown.png)
 
 ---
 

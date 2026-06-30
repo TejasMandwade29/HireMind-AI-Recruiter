@@ -218,7 +218,7 @@ A side-by-side comparison of two top candidates, breaking down their final score
 
 ### 4. Score Breakdown Visualizer (The Transparency)
 Displays the exact 5-signal weight distribution (Role Fit, Career Growth, Stability, Intent Signal) rendered as clear progress bars. It visually delivers on the promise of "Explainable Talent Matching" so recruiters see exactly *why* a candidate scored high.
-![Score Breakdown](github_img/score_breakdown.png)
+![Score Breakdown](github_img/Score_Visualizer.png)
 
 ### 5. AI Recruiter Verdict (The Zero-Hallucination Proof)
 A focused crop of the deterministic text rationale generated for the recruiter. It acts as final proof that raw data points (e.g., tenure, tools, location, notice period) are reliably stitched together into a hallucination-free summary without needing an expensive cloud LLM.

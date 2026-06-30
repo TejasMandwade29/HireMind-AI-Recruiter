@@ -204,29 +204,25 @@ pytest tests/
 
 ## 11. Screenshots
 
-### 1. Main Dashboard & Funnel
-Overview of the entire 100k candidate pool, showing the distillation funnel and the top candidate match score.
+### 1. Main Dashboard & Funnel (The Scale & Impact)
+Shows the top-level funnel distilling 100,000 raw candidates down to a 100-person shortlist, highlighting the 18,899 anomalies removed. It proves the system handles massive scale and reinforces the core value proposition of programmatic data integrity.
 ![Main Dashboard](github_img/main_dashboard%20.png)
 
-### 2. Candidate Explorer
-Detailed view of a single candidate, showing behavioral signals, technical skills depth, and AI-generated recruiter verdicts.
+### 2. Candidate Explorer (The Depth of Parsing)
+A detailed breakdown of a single candidate featuring Platform Behavioral Signals and Technical Skills tagged with specific time-in-role metrics. It demonstrates that the semantic matching understands the *context* and *duration* of skills, not just flat text.
 ![Candidate Explorer](github_img/candidate_explorer.png)
 
-### 3. Candidate Profile
-Individual view of a candidate's background and matching score breakdown.
-![Candidate Profile](github_img/candidate_profile.png)
-
-### 4. Compare Hub
-Side-by-side comparison of top candidates, breaking down their final score across different ranking weights.
+### 3. Compare Hub (The Recruiter Utility)
+A side-by-side comparison of two top candidates, breaking down their final scores into sub-metrics like Role Fit and Career Growth. This proves the tool is built for real-world recruiter workflows, allowing them to make nuanced decisions between highly-ranked individuals.
 ![Compare Hub](github_img/compare_hub.png)
 
-### 5. AI Recruiter Verdict
-Fact-based, deterministic explanation of the candidate's ranking and anomalies.
-![AI Recruiter Verdict](github_img/AI%20Recruiter%20Verdict.png)
+### 4. Score Breakdown Visualizer (The Transparency)
+Displays the exact 5-signal weight distribution (Role Fit, Career Growth, Stability, Intent Signal) rendered as clear progress bars. It visually delivers on the promise of "Explainable Talent Matching" so recruiters see exactly *why* a candidate scored high.
+![Score Breakdown](github_img/score_breakdown.png)
 
-### 6. Score Breakdown Visualizer
-Detailed visualization of the 5-signal weights for the top candidate match.
-![score_breakdown](github_img/score_breakdown.png)
+### 5. AI Recruiter Verdict (The Zero-Hallucination Proof)
+A focused crop of the deterministic text rationale generated for the recruiter. It acts as final proof that raw data points (e.g., tenure, tools, location, notice period) are reliably stitched together into a hallucination-free summary without needing an expensive cloud LLM.
+![AI Recruiter Verdict](github_img/AI%20Recruiter%20Verdict.png)
 
 ---
 

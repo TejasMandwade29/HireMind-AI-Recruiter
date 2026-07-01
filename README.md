@@ -3,7 +3,13 @@
 HireMind is a lightweight, fully offline, and explainable candidate discovery and ranking system. Designed to run on consumer hardware under strict hackathon limits, HireMind processes **100,000 raw candidate resumes in under 70 seconds on CPU**, filters fraudulent "honeypot" profiles, calculates multidimensional relevance scores, and generates transparent, natural-language rationales for recruiters.
 
 ---
+## 🎥 Demo Video
 
+Watch the complete HireMind walkthrough here:
+
+**https://youtu.be/sBnu7uGHmk8**
+
+---
 ## 1. Problem Statement
 Modern recruiting tools suffer from three critical flaws:
 1. **Keyword Gaming:** Candidates easily game legacy Applicant Tracking Systems (ATS) by stuffing resumes with keywords.

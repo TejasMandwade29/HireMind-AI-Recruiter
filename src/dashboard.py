@@ -403,14 +403,14 @@ st.markdown(
 # Workspace Paths
 workspace_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 candidates_file = os.path.join(workspace_dir, "candidates.jsonl")
-jd_file = os.path.join(workspace_dir, "job_description.txt")
+jd_file = os.path.join(workspace_dir, "docs", "job_description.txt")
 
 @st.cache_data(ttl=5)
 def load_dashboard_data():
     """Loads precomputed candidate shortlist and pipeline stats."""
     import json
-    stats_file = os.path.join(workspace_dir, "pipeline_stats.json")
-    shortlist_file = os.path.join(workspace_dir, "dashboard_shortlist.json")
+    stats_file = os.path.join(workspace_dir, "data", "pipeline_stats.json")
+    shortlist_file = os.path.join(workspace_dir, "data", "dashboard_shortlist.json")
     
     if not os.path.exists(stats_file) or not os.path.exists(shortlist_file):
         st.error("Precomputed data files missing. Please run `python rank.py` first.")

@@ -1,0 +1,8 @@
+{
+  "total_raw": 100000,
+  "total_clean": 81101,
+  "total_anomalies": 18899,
+  "tier1_count": 172,
+  "tier2_count": 920,
+  "total_shortlisted": 1092
+}

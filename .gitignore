@@ -13,8 +13,8 @@ profile_screenshot.png
 
 # Generated Output CSVs & JSONs
 submission.csv
-pipeline_stats.json
-dashboard_shortlist.json
+# pipeline_stats.json
+# dashboard_shortlist.json
 
 # Local Python Caches & Bytecode
 __pycache__/
